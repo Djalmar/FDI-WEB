@@ -9,7 +9,7 @@
         <p>En un momento agregaremos nuevas imagenes.</p>
     @else
         <div class="row">
-            @foreach($images as $image)
+            @foreach($images as $picture)
                 @include('images._image')
             @endforeach
         </div>

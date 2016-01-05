@@ -35,10 +35,12 @@ Route::get('/structure', function () {
     return view('statics.structure');
 });
 
-Route::model('images','App\Image');
+Route::model('images','App\Picture');
 Route::model('news','App\Notice');
 Route::model('events','App\Event');
 
 Route::resource('images','ImagesController');
 Route::resource('news','NewsController');
 Route::resource('events','EventsController');
+
+Route::get('/searchs','SearchsController@search');

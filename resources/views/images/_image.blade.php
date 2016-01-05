@@ -1,12 +1,11 @@
-<div class="col-sm-6 col-md-5">
-    <div class="thumbnail">
-        <img class="featurette-image img-responsive center-block" src="/img/photo_gallery/{{$image->image_path}}"
-             alt="Generic placeholder image">
-
-        <div class="caption">
-            <h3>{{$image->name}}</h3>
-
-            <p>{{$image->description}}</p>
+<div class="col-sm-6 col-md-4">
+    <a href="{{action('ImagesController@show',$picture)}}" >
+        <div class="thumbnail">
+            <img style="max-height:300px " src="/img/photo_gallery/{{$picture->image_path}}">
+            <div class="caption">
+                <h3>{{$picture->name}}</h3>
+                <p>{{$picture->description}}</p>
+            </div>
         </div>
-    </div>
+    </a>
 </div>

@@ -4,13 +4,13 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Laravel</title>
+    <title>FDI</title>
 
     <link href="{{ asset('/css/app.css') }}" rel="stylesheet">
-
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <!-- Fonts -->
-    <link href='//fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
-    <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
+    <link href='//fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Lato:400" rel="stylesheet" type="text/css">
     <script src="https://maps.googleapis.com/maps/api/js"></script>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -67,13 +67,14 @@
         <div class="col-sm-3 col-md-2 sidebar">
             <ul class="nav nav-sidebar">
                 <li>
-                    <div class="input-group" style="">
-                        <input type="text" class="form-control" placeholder="Buscar...">
-                        <span class="input-group-btn">
-                            <button class="btn btn-default" type="button">
-                                <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                    <div class="input-group">
+                        {!! Form::open(['method'=>'GET','url'=>'searchs'])  !!}
+                        <input name="searchText" type="text" class="form-control" placeholder="Buscar...">
+                        <span class="input-group-btn"><button class="btn btn-default" type="submit"><span
+                                        class="glyphicon glyphicon-search" aria-hidden="true"></span>
                             </button>
                         </span>
+                        {!! Form::close() !!}
                     </div>
                 </li>
                 <li><a href="/images">Galeria de Fotos</a></li>
@@ -83,7 +84,7 @@
         </div>
         <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
             @if(Session::has('flash_message'))
-                <div class="alert alert-success">
+                <div class="alert alert-danger">
                     {{ Session::get('flash_message') }}
                 </div>
             @endif
@@ -94,7 +95,7 @@
 </div>
 
 <!-- Scripts -->
-<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
 <script src="/js/bootstrap.min.js"></script>
 
 </body>

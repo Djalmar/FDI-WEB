@@ -11,14 +11,17 @@
             <div class="carousel-inner" role="listbox">
                 <div class="item active red">
                     <img class="slide-image third-slide" src="/img/img4.png">
+
                     <div class="container">
                         <div class="carousel-caption">
                             <h1>Nuevo Fondo de Desarrollo Indigena</h1>
 
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aut earum facere, fuga
-                                harum illo laborum laudantium neque officia optio voluptas voluptatum. Atque
-                                exercitationem
-                                odio vero. Dicta expedita molestias neque?</p>
+                            <p>
+                                El Fondo de Desarrollo Indígena – FDI, creado mediante Decreto Supremo N° 2493; tiene la
+                                finalidad de gestionar, financiar, ejecutar de manera directa y fiscalizar programas y
+                                proyectos para el desarrollo productivo de los Pueblos Indígena Originario Campesinos,
+                                Comunidades Campesinas, Interculturales y Afrobolivianas
+                            </p>
 
                         </div>
                     </div>
@@ -28,11 +31,14 @@
 
                     <div class="container">
                         <div class="carousel-caption">
-                            <h1>Título</h1>
+                            <h1>Plan Sectorial de Desarrollo Agropecuario 2014-2018 “HACIA EL 2025”</h1>
 
-                            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta
-                                gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-
+                            <p style="color: darkslategray">
+                                La visión de desarrollo del sector, se orienta en función de los lineamientos a largo
+                                plazo de la Agenda Patriótica al 2025, la misma que señala: “El Estado Boliviano dispone
+                                de productos agropecuarios, alimentos diversos y de calidad para la población boliviana,
+                                la cual cuenta con seguridad alimentaria bajo un marco de soberanía nacional¨.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -41,10 +47,15 @@
 
                     <div class="container">
                         <div class="carousel-caption">
-                            <h1>Título</h1>
+                            <h1>Politicas del Plan Sectorial de Desarrollo Agropecuario</h1>
 
-                            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta
-                                gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                            <p>
+                                El FDI como Institución Descentralizada bajo tuición del Ministerio de Desarrollo Rural
+                                y Tierras, enmarcará su planificación en las diferentes políticas definidas en el Plan
+                                de Desarrollo Sectorial, con énfasis más específico con la política ¨Producción
+                                Agropecuaria, Pesquera, Forestal para la Seguridad Alimentaria con Soberanía¨ y la
+                                política ¨Gestión Territorial Indígena Originario Campesina¨.
+                            </p>
                         </div>
                     </div>
                 </div>

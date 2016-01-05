@@ -10,10 +10,9 @@
                 </h2>
             </div>
             <p>Añade una nueva imagen para la galeria</p>
-
             <div>
                 @include('errors.list')
-                {!! Form::open(['action'=>['ImagesController@store'],'class'=>'form','files'=>true]) !!}
+                {!! Form::open(['action'=>['ImagesController@store'],'class'=>'form ','files'=>true]) !!}
                 @include('images.form')
                 {!! Form::close() !!}
             </div>

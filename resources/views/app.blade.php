@@ -67,15 +67,15 @@
         <div class="col-sm-3 col-md-2 sidebar">
             <ul class="nav nav-sidebar">
                 <li>
+                    {!! Form::open(['method'=>'GET','url'=>'searches'])  !!}
                     <div class="input-group">
-                        {!! Form::open(['method'=>'GET','url'=>'searchs'])  !!}
                         <input name="searchText" type="text" class="form-control" placeholder="Buscar...">
                         <span class="input-group-btn"><button class="btn btn-default" type="submit"><span
                                         class="glyphicon glyphicon-search" aria-hidden="true"></span>
                             </button>
                         </span>
-                        {!! Form::close() !!}
                     </div>
+                    {!! Form::close() !!}
                 </li>
                 <li><a href="/images">Galeria de Fotos</a></li>
                 <li><a href="/contactUs">Contactanos</a></li>

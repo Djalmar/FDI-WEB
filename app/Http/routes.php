@@ -43,4 +43,4 @@ Route::resource('images','ImagesController');
 Route::resource('news','NewsController');
 Route::resource('events','EventsController');
 
-Route::get('/searchs','SearchsController@search');
+Route::get('/searches','SearchesController@search');

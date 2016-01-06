@@ -5,15 +5,6 @@
     <div class="page-header">
         <h2>Galeria de fotos</h2>
     </div>
-    @if($images->isEmpty())
-        <p>En un momento agregaremos nuevas imagenes.</p>
-    @else
-        <div class="row">
-            @foreach($images as $picture)
-                @include('images._image')
-            @endforeach
-        </div>
-    @endif
     @if(auth::guest())
     @else
         <div class="form-group">
@@ -23,6 +14,17 @@
                 </button>
             </a>
         </div>
+        <hr>
     @endif
+    @if($images->isEmpty())
+        <p>En un momento agregaremos nuevas imagenes.</p>
+    @else
+        <div class="row">
+            @foreach($images as $picture)
+                @include('images._image')
+            @endforeach
+        </div>
+    @endif
+
 
 @endsection

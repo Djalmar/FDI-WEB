@@ -19,6 +19,7 @@ elixir(function (mix) {
     var ckEditorPath = 'node_modules/node-ckeditor/ckeditor';
     mix.copy(bootstrapPath + '/fonts', 'public/fonts')
         .copy(bootstrapPath + '/javascripts/bootstrap.min.js', 'public/js')
+        .copy('node_modules/jquery/dist/jquery.min.js','public/js')
         .copy(ckEditorPath , 'public/js');
     ;
 });

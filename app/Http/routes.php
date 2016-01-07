@@ -12,8 +12,7 @@
 */
 
 Route::get('/', function () {
-    return App\User::get();
-//    return view('home');
+    return view('home');
 });
 Route::get('/home', function () {
     return view('home');

@@ -12,15 +12,16 @@
 */
 
 Route::get('/', function () {
-    return view('home');
+    return App\User::get();
+//    return view('home');
 });
 Route::get('/home', function () {
     return view('home');
 });
 
 Route::controllers([
-    'auth' => 'auth\AuthController',
-    'password' => 'auth\PasswordController'
+    'auth' => 'Auth\AuthController',
+    'password' => 'Auth\PasswordController'
 ]);
 
 Route::get('/organization', function () {

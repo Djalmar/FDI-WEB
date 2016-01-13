@@ -22,6 +22,13 @@
 </head>
 <body>
 <nav class="navbar navbar-inverse navbar-fixed-top">
+    <h2 class="navbar-text header-title" style="font-weight: bolder;font-family: 'Roboto';">
+        Fondo de Desarrollo Indígena <br>
+        <small class="compressed" >
+            COMPROMISO Y TRANSPARENCIA
+            POR NUESTRO PUEBLO
+        </small>
+    </h2>
     <div class="container-fluid">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
@@ -32,12 +39,13 @@
                 <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand" href="/">
-                <img class="" alt="Brand" src="/img/escudo-logo.png">
+                <img class="" alt="Brand" src="/img/logoFDI.png">
             </a>
         </div>
 
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav">
+
+            <ul class="nav navbar-nav navbar-left">
                 <li><a href="/">Inicio</a></li>
                 <li><a href="/organization">Organización</a></li>
                 <li><a href="/news">Noticias</a></li>

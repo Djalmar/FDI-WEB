@@ -49,7 +49,7 @@
                             <div class="form-group">
                                 <div class="col-md-6 col-md-offset-4">
                                     <button type="submit" class="btn btn-primary">Iniciar sesión</button>
-                                    <a class="btn btn-link" href="{{ url('/password/email') }}">¿Olvidaste tu contraseña?</a>
+                                    {{--<a class="btn btn-link" href="{{ url('/password/email') }}">¿Olvidaste tu contraseña?</a>--}}
                                 </div>
                             </div>
                         </form>

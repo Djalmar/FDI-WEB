@@ -7,13 +7,23 @@
                 <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
                 <li data-target="#myCarousel" data-slide-to="1"></li>
                 <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
             </ol>
             <div class="carousel-inner" role="listbox">
-                <div class="item active red">
-                    <img class="slide-image third-slide" src="/img/img4.png">
+                <div class="item active blue">
+                    <img class="slide-image third-slide" style="" src="/img/FDI.png">
 
                     <div class="container">
                         <div class="carousel-caption">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item red">
+                    <img class="slide-image slide-image-left third-slide" src="/img/img4.png">
+
+                    <div class="container">
+                        <div class="carousel-caption carousel-caption-left">
                             <h1>Nuevo Fondo de Desarrollo Indigena</h1>
 
                             <p>
@@ -27,10 +37,10 @@
                     </div>
                 </div>
                 <div class="item yellow">
-                    <img class="slide-image  third-slide" src="/img/img1.png">
+                    <img class="slide-image slide-image-left third-slide" src="/img/img1.png">
 
                     <div class="container">
-                        <div class="carousel-caption">
+                        <div class="carousel-caption carousel-caption-left">
                             <h1>Plan Sectorial de Desarrollo Agropecuario 2014-2018 “HACIA EL 2025”</h1>
 
                             <p style="color: darkslategray">
@@ -43,10 +53,10 @@
                     </div>
                 </div>
                 <div class="item green">
-                    <img class="slide-image  third-slide" src="/img/img2.png">
+                    <img class="slide-image slide-image-left third-slide" src="/img/img2.png">
 
                     <div class="container">
-                        <div class="carousel-caption">
+                        <div class="carousel-caption carousel-caption-left">
                             <h1>Politicas del Plan Sectorial de Desarrollo Agropecuario</h1>
 
                             <p>

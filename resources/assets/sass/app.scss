@@ -1,5 +1,7 @@
-$navbar-height: 100px;
-$navbar-inverse-bg: #103665;
+$navbar-height: 120px;
+$navbar-inverse-bg: #2365af;
+$navbar-inverse-link-color: #adadad;
+$headings-small-color: #989898;
 $font-family-base: 'Lato';
 //$navbar-inverse-color:
 $headings-color: $navbar-inverse-bg;
@@ -12,14 +14,20 @@ $money-color: green;
   font-style: italic;
 }
 
-.slide-image {
+.slide-image-left {
   max-height: 500px;
-
 }
 
 .carousel .item.red {
   background-color: #D52B1E;
 }
+
+.carousel .item.blue {
+  padding: 80px;
+  max-height: 500px;
+  background-color: #2365af;
+}
+
 
 .carousel .item.yellow {
   background-color: #F9E300;
@@ -30,9 +38,8 @@ $money-color: green;
 }
 
 .navbar-brand > img {
-  max-height: 80px;
-  margin-top: -30px;
-
+  max-height: 100px;
+  margin-top: -40px;
 }
 
 .sidebar {
@@ -42,7 +49,7 @@ $money-color: green;
 @media (min-width: 768px) {
   .sidebar {
     position: fixed;
-    top: 101px;
+    top: 131px;
     bottom: 0;
     left: 0;
     z-index: 1000;
@@ -89,7 +96,7 @@ $money-color: green;
 
 .main {
   padding: 20px;
-  padding-top: 120px;
+  padding-top: 125px;
 }
 
 @media (min-width: 768px) {
@@ -125,7 +132,7 @@ $money-color: green;
   border-radius: 50%;
 }
 
-.carousel-caption {
+.carousel-caption-left {
   left: 40%;
 }
 
@@ -221,4 +228,25 @@ p {
 
 .list-big > li > ul > li > ul > li {
   font-size: medium;
+}
+
+.header-title {
+  margin-top: 6px;
+  text-align: center;
+  margin-left: 35%;
+  position: fixed;
+  color: white !important;
+
+}
+
+@media (min-width: 768px) {
+  .navbar-nav > li > a {
+    padding-top: 90px;
+    padding-bottom: 0px;
+  }
+}
+
+.compressed {
+  margin-top: -10px;
+  letter-spacing: -1px;
 }
